@@ -1,0 +1,242 @@
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+}*/
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  /* scroll when clicked smoothly */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .home {
+    width: 100vw;
+    height: 100vh;
+    background-color: #242424;
+    position: relative;
+    background-image: url("./image/SL-120722-54440-04.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* overlay on the image */
+  .role {
+    font: 1.5rem;
+    color: #8d8d8d;
+    margin: 0;
+  }
+  body{
+    background-color: rgb(226, 233, 233);
+  }
+  
+  .home-img img {
+    width: 25vw;
+    min-width: 200px;
+    height: 25vw;
+    min-height: 100px;
+    border-radius: 10%;
+  }
+  
+  .content {
+    width: 100vw;
+    height: 55vw;
+  }
+  .about-img img {
+    max-width: 250px;
+    border-radius: 5px;
+  }
+  .header_section {
+    padding: 15px 0;
+  }
+  
+  .header_section .container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    gap: 10px;
+    font-size: 25px;
+  }
+  .box1{
+    font-weight: bold;
+  }
+  .box2{
+    grid-column: span 2;
+  }
+  .menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    display: inline;
+    margin-right: 20px;
+  }
+  .box-inti{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .home-content{
+    margin: auto;
+    width: 10%;
+    padding: 10px;
+  }
+  h1{
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 3rem;
+  }
+  p{
+    font-size: 2rem;
+  }
+  .intro{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #training{
+    padding: 50px;
+  }
+  .box-training{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40rem;
+    gap: 10px;
+    font-size: 25px;
+    padding-left: 7rem;
+  }
+  .box-training img{
+    width: 25vw;
+    min-width: 200px;
+    height: 25vw;
+    min-height: 100px;
+    border-radius: 10%;
+  }
+  .box-training1{
+    grid-column: span 2;
+    margin: 80px 400px 0px 50px;
+  }
+
+  /*certificate*/
+  #certificate{
+    padding-top: 100px;
+    padding: 50px;
+  }
+  /*diatas footer*/
+  .info_section {
+    color: #000000;
+    padding: 45px 0 15px 0;
+  }
+  #row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40rem;
+    gap: 10px;
+    font-size: 25px;
+    padding-left: 7rem;
+    padding-top: 5%;
+  }
+  
+  .info_section .info_contact .contact_link_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info_contact{
+    text-align: center;
+  }
+  .info_section .info_contact .contact_link_box a {
+    margin: 5px 0;
+    color: #000000;
+  }
+  .info_section .info_social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .info_section .info_links a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 15px;
+    color: #0c0404;
+  }
+  .info_section form button:hover {
+    background-color: #007fa4;
+  }
+  
+  /* footer section*/
+  .footer_section {
+    position: relative;
+    background-color: #080224;
+    text-align: center;
+  }
+  
+  .footer_section p {
+    color: #c7d7ed;
+    padding: 25px 0;
+    margin: 0;
+  }
+  
+  .footer_section p a {
+    color: inherit;
+  }
+  /*footer*/
